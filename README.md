@@ -2,16 +2,16 @@
 ## Data Cleaning
 The names of variables have been transformed into syntactically valid names, 
 meaning that all the parenthese, dashes and commas are replaced with dots.
-For example, an original variable named ```tBodyAcc-arCoeff()-Y,2``` would be 
-renamed as ```tBodyAcc.arCoeff...Y.2```.
+For example, an original variable named `tBodyAcc-arCoeff()-Y,2` would be 
+renamed as `tBodyAcc.arCoeff...Y.2`.
 
 Some of the variable names contain two copies of the same character string 
 "Body". These duplicated strings are reduced to one "Body" at maximum for each
 variable name. For exmaple, in the original variable name called 
-```fBodyBodyGyroMag-meanFreq()```, two copied of "Body" are present. 
+`fBodyBodyGyroMag-meanFreq()`, two copied of "Body" are present. 
 After replacing invalid punctuation with dots and removing the extra "Body" in 
 the character string, the modified variable would be renamed as 
-```fBodyGyroMag.meanFreq..```.
+`fBodyGyroMag.meanFreq..`.
 
 
 Activity labels in column 2 have been replaced with full activity names.
@@ -19,7 +19,7 @@ Activity labels in column 2 have been replaced with full activity names.
 ### SubjectID: nchar = 1..2 ###
 
 Column 1
-```
+```r
     Traing Set:     1
                     3
                     5
@@ -55,7 +55,7 @@ Column 1
 ### Activity: nchar = 6..18 ###
 
 Column 2
-```
+```r
     Activity:       LAYING
                     SITTING
                     STANDING
@@ -67,7 +67,7 @@ Column 2
 
 Column 3..563      
                     (SEE LIST AT THE END.)
-```
+```r
     Denotations:    
                     
                     t (prefix)          time domain signal
@@ -112,7 +112,7 @@ The list below is a complete modified list of variable names and their
 corresponding column #'s. (The complete original list of variables of each 
 feature vector is available in "features.txt".)
 
-```
+```r
 Column Number & Variable Name:
 ----------------------------------------
 3                      tBodyAcc.mean...X
