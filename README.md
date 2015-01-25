@@ -13,6 +13,7 @@ After replacing invalid punctuation with dots and removing the extra "Body" in
 the character string, the modified variable would be renamed as 
 ```fBodyGyroMag.meanFreq..```.
 
+
 Activity labels in column 2 have been replaced with full activity names.
 
 ### SubjectID: nchar = 1..2 ###
@@ -97,7 +98,7 @@ Column 3..563
                                         Burg order equal to 4
                     .correlation..      correlation coefficient between two 
                                         signals
-                    .maxInds..          index of the frequency component with 
+                    .maxInds            index of the frequency component with 
                                         largest magnitude
                     .meanFreq..         Weighted average of the frequency 
                                         components to obtain a mean frequency
