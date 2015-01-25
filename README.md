@@ -15,9 +15,9 @@ the character string, the modified variable would be renamed as
 
 Activity labels in column 2 have been replaced with full activity names.
 
-### SubjectID: nchar = 1..2
+### SubjectID: nchar = 1..2 ###
 
-Column #1
+Column 1
 ```
     Traing Set:     1
                     3
@@ -51,9 +51,9 @@ Column #1
                     20
                     24
 ```                    
-### Activity: nchar = 6..18
+### Activity: nchar = 6..18 ###
 
-Column #2
+Column 2
 ```
     Activity:       LAYING
                     SITTING
@@ -62,9 +62,9 @@ Column #2
                     WALKING_DOWNSTAIRS
                     WALKING_UPSTAIRS
 ```                    
-### Features: nchar = 14..36
+### Features: nchar = 14..36 ###
 
-Column #3..563      
+Column 3..563      
                     (SEE LIST AT THE END.)
 ```
     Denotations:    
